@@ -1,0 +1,19 @@
+Body {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+
+.dan {
+    background-color: green;
+    height: 10vw;
+    width: 50vw;
+}
+
+.be {
+    background-color:yellow;
+    height: 10vw;
+    width: 50vw;
+
+}
