@@ -2,10 +2,29 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="javascript.js"></script>
     </head>
     
     <body>
-        <div class="dan"></div>
-        <div class="be"></div>        
+        <div class="dan">
+            <div class="wrapper">
+                <div class="calcwrap">
+                        <h1 class="title">TEMPERATURE CALCULATOR</h1>
+                        <p class="p">Celsius and Fahrenheit converter</p>
+                    <div class="f-to-c">
+                        <span class="span">Enter Fahrenheit temperature:</span>
+                        <input type="number" id="frh" autofocus autocomplete="off">
+                        <button class="button" type="submit" id="fhr-sub" onclick="fToC();">GO</button>
+                    </div>
+                    <span id="frh-result">Result Here</span>
+                    <div class="f-to-c">
+                        <span class="span">Enter Celsius temperature:</span>
+                        <input type="number" id="cel" autocomplete="off">
+                        <button class="button" type="submit" id="cel-sub" onclick="cToF();">GO</button> 
+                    </div>
+                    <span id="cel-result">Result Here</span>
+                </div>
+            </div>
+        </div>        
     </body>
 </html>
