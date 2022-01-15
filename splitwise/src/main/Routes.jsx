@@ -1,13 +1,15 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router'
 import Login from '../modules/Login/index.tsx'
 
-
-export default () => {
+function AllRoutes() {
 
     return (
-        <Routes>
+        <Switch>
+            <Route exact path='/' component={Login} />
             <Route path='/login' component={Login} />
-        </Routes>
+        </Switch>
     )
 }
+
+export default AllRoutes;
