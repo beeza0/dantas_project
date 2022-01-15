@@ -1,13 +1,11 @@
 import React from "react";
-import Site from "../../components/Site/index.tsx";
+import Site from "../../components/Site";
 
 const Login: React.FC = (props: any) => {
 
   return (
     <Site noFooter= {false}>      
-      <div>
-          BUNDINHA
-      </div>
+    
     </Site>
 
   );

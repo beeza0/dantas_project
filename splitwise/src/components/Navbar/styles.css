@@ -1,0 +1,41 @@
+.navbar-container{
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar-container a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar-container a:hover {
+    background-color: rgb(146, 137, 137);
+    color: black;
+  }
+  
+  .navbar-container a.active {
+    background-color: #2d883c;
+    color: white;
+  }
+
+  #navbar-profile-icon {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-icon-anonymous {
+    width: 2vw;
+    color: white;
+  }
+
+  @media (max-width: 525px) {
+  .profile-icon-anonymous {
+    width: 6vw;
+  }
+}
