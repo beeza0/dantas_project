@@ -13,8 +13,7 @@
   }
   
   .navbar-container a:hover {
-    background-color: rgb(146, 137, 137);
-    color: black;
+    color: rgb(146, 137, 137);
   }
   
   .navbar-container a.active {
